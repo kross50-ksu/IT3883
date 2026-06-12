@@ -2,8 +2,9 @@
 # Student Name: Khaliya Ross
 # Assignment Number: Lab1
 # Due Date: 06/12/2026
-# Purpose: 
-# Resources:
+# Purpose: Create a text-based menu-driven program that allows the user to manage an input buffer.
+# The program should allow the user to append data to the buffer, clear the buffer, display the buffer contents, and exit the program.
+# Resources: - W3Schools Python Tutorial: https://www.w3schools.com/python/
 
 def main():
     buffer = ""
