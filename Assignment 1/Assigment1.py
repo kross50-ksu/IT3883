@@ -11,17 +11,18 @@ def main():
     while True:
         print("\nMenu:")
         print("\nPlease choose an option:")
+        print("---------------------------------")
         print("1. Append data to the input buffer")
         print("2. Clear the input buffer")
         print("3. Display the input buffer")
         print("4. Exit the program")
-
+        print("")
         choice = input("Enter your choice (1-4): ")
 
         if choice == "1":
-            new_text = input("Enter text to append: ")
-            buffer += new_text
-            print("\nData has been appended to the input buffer.")
+            new_text = input("\nEnter text to append: ")
+            buffer += new_text + "\n"
+            print(f"\n'{new_text}' has been appended to the input buffer.")
 
         elif choice == "2":
             buffer = ""
@@ -32,11 +33,11 @@ def main():
             print(buffer)
 
         elif choice == "4":
-            print("Exiting program.")
+            print("\nExiting program.")
             break
 
         else:
-            print("Invalid choice. Please enter a number from 1 to 4.")
+            print("\nInvalid choice. Please enter a number from 1 to 4.")
 
 if __name__ == "__main__":
     main()
