@@ -21,14 +21,14 @@ def main():
         if choice == "1":
             new_text = input("Enter text to append: ")
             buffer += new_text
-            print("Data has been appended to the input buffer.")
+            print("\nData has been appended to the input buffer.")
 
         elif choice == "2":
             buffer = ""
-            print("Input buffer has been cleared.")
+            print("\nInput buffer has been cleared.")
 
         elif choice == "3":
-            print("Current buffer contents:")
+            print("\nCurrent buffer contents:")
             print(buffer)
 
         elif choice == "4":
