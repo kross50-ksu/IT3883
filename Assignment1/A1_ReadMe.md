@@ -1,4 +1,4 @@
-# Assigment 1
+# Assignment 1
 
 Write a python program that implements a text-based menu. The menu should present the user with the following 4 choices:
 
