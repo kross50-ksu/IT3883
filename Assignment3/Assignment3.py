@@ -29,18 +29,19 @@ def convert(*args):
 window = tk.Tk()
 window.title("MPG to KM/L Converter")
 window.geometry("350x150")
+window.configure(bg="#E6E0F8")  # lavender background
 
 # Input label
-input_label = tk.Label(window, text="Enter MPG:")
+input_label = tk.Label(window, text="Enter MPG:", bg="#E6E0F8", font=("Segoe UI", 11))
 input_label.pack(pady=5)
 
 # Entry box with automatic update
-entry = tk.Entry(window, width=20)
+entry = tk.Entry(window, width=20, font=("Segoe UI", 12), relief="solid", borderwidth=1)
 entry.pack()
 entry.bind("<KeyRelease>", convert)
 
 # Output label
-result_label = tk.Label(window, text="0.000000000 km/L", font=("Arial", 14))
+result_label = tk.Label(window, text="0.000000000 km/L", font=("Segoe UI", 14, "bold"), bg="#E6E0F8", fg="#4B0082")
 result_label.pack(pady=10)
 
 # Start GUI loop
