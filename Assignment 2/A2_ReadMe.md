@@ -6,7 +6,7 @@ The format of the input file will be one student per line. The first field will 
 
 # Source Code  
 
-[Program](Assigment2.py)  
+[Program](Assignment2.py)  
 
 # Screenshots  
 
