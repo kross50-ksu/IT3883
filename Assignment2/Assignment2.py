@@ -8,7 +8,7 @@
 
 # Function to read student data from a file, calculate averages, and display results
 def main():
-    file_name = 'Assignment 2\\Assignment2input.txt'
+    file_name = 'Assignment2\\Assignment2input.txt'
 
     # Create an empty list to store student data
     student_averages = []
