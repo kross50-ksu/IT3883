@@ -1,11 +1,10 @@
 # Program Name: Assignment4_A.py
-# Course: IT3883/Section W02
+# Course: IT3883/Section W01
 # Student Name: Khaliya Ross
 # Assignment Number: Assignment 4
 # Due Date: 07/10/2026
-# Purpose: This program prompts the user for a string, sends the string
-# to Program B using a socket connection, receives the modified string
-# from Program B, and displays the response.
+# Purpose: This program prompts the user for a string, sends the string to Program B using a socket connection, 
+# receives the modified string from Program B, and displays the response.
 # Resources Used: Course notes, Python documentation.
 
 import socket
