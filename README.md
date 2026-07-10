@@ -8,3 +8,4 @@ Repository for IT 3883 Assignments
 
 [Assignment 3](Assignment3/A3_ReadMe.md) 
 
+[Assignment 4](Assignment4/A4_ReadMe.md) 
