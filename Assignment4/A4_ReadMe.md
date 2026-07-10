@@ -10,10 +10,10 @@ Your submission should include two programs. You may hard code the IP address an
 
 # Source Code  
 
-[Program A](Assignment4_A.py)
-[Program B](Assignment4_B.py)
+[ProgramA](Assignment4_A.py)
+[ProgramB](Assignment4_B.py)
 
 # Screenshots  
 
-[Output A](A4_ProgramA.png)
-[Output B](A4_ProgramB.png)
+[OutputA](A4_ProgramA.png)
+[OutputB](A4_ProgramB.png)
