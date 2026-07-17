@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS temperature_data (
 """)
 
 # Open input file
-with open("Assignment5input.txt", "r") as file:
+with open("Assignment5\\Assignment5input.txt", "r") as file:
 
     for line in file:
 
@@ -36,7 +36,7 @@ with open("Assignment5input.txt", "r") as file:
         line = line.strip()
 
         # Split day and temperature
-        day, temp = line.split(",")
+        day, temp = line.split(" ")
 
         # Insert row into table
         cursor.execute("""
