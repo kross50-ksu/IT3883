@@ -66,4 +66,3 @@ def convert_sentence(sentence):
 # Example manual test
 if __name__ == "__main__":
     print(convert_sentence("21 shiny pennies and 3 old nickels"))
-

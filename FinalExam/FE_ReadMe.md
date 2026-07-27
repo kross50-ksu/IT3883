@@ -22,4 +22,5 @@ Each output should be an amount listed in dollars
 # Screenshots  
 
 [Output](FE_S1.png)
+
 [Output](FE_S2.png)
