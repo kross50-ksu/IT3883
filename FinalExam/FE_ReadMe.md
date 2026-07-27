@@ -2,8 +2,11 @@
 For this exam you are asked to follow an abridged form of the software development lifecycle, consisting of two “sprints”. Each sprint will consist of the following stages:
 
 •	Requirements
+
 •	Design
+
 •	Implementation
+
 •	Testing
 
 For each stage, you will be asked to create or update a type of project documentation or source code. Please see the list of deliverables below for more information.
