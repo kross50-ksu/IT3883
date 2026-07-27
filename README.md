@@ -9,3 +9,7 @@ Repository for IT 3883 Assignments
 [Assignment 3](Assignment3/A3_ReadMe.md) 
 
 [Assignment 4](Assignment4/A4_ReadMe.md) 
+
+[Assignment 5](Assignment5/A5_ReadMe.md)
+
+[Final Exam](FinalExam/FE_ReadMe.md)
