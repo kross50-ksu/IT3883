@@ -9,7 +9,6 @@
 # outputs the total in dollars.
 # Resources: Python documentation (string methods, dictionaries) and Course notes
 
-
 COIN_VALUES = {
     "penny": 0.01,
     "pennies": 0.01,
@@ -66,5 +65,5 @@ def convert_sentence(sentence):
 
 # Example manual test
 if __name__ == "__main__":
-    print(convert_sentence("21 shiny pennies and 17 dimes and 52 quarters"))
+    print(convert_sentence("21 shiny pennies and 3 old nickels"))
 
