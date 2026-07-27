@@ -22,6 +22,12 @@ Each output should be an amount listed in dollars
 
 [Program](FE_CoinConverter.py)
 
+# Sprint Deliverable Documentation
+
+[Sprint 1](IT3883_S1.docx)
+
+[Sprint 2](IT3883_S2.docx)
+
 # Screenshots  
 
 [Output](FE_S1.png)
