@@ -26,7 +26,7 @@ def convert_sentence(sentence):
         tokens = part.split()
         # Expect: "<quantity> <denomination>"
         quantity = tokens[0]
-        denomination = tokens[1].lower()
+        denomination = tokens[1]
         if not quantity.isdigit():
             raise ValueError(f"Invalid quantity: {quantity}")
         if denomination not in COIN_VALUES:
@@ -36,4 +36,4 @@ def convert_sentence(sentence):
 
 # Example manual test
 if __name__ == "__main__":
-    print(convert_sentence("1 penny and 2 nickels"))
+    print(convert_sentence("2 shiny pennies and 2 nickels"))
